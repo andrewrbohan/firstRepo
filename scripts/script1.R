@@ -1,3 +1,9 @@
+#call this script from the command line with the following syntax:
+  # R --no-save < script1.R --args seed=23978 out=out1.pdf
+  # If arguments are not given, the default behavior is:
+  # seed - if not supplied, a new seed will be created using the current time and the process ID
+  # out - if not supplied the pdf generated will be saved to the file out1.pdf
+
 library(tidyverse)
 library(cowplot)
 
