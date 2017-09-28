@@ -20,3 +20,21 @@ Notice that the R code in the table above (e.g. `numeric()`) is formatted differ
 *	`chatacter()`: text data
 *	`data.frame()`: a data set
     * Or you could use `data_frame()`. I like them better for reasons we will discuss later in the course.
+    
+## Subsection
+Here we have a subsection containing a block quote from 
+[@BroadhurstDavid] ([https://twitter.com/BroadhurstDavid])(https://twitter.com/BroadhurstDavid)
+
+>Really Dr. McCoy You must learn to govern your passions; they will be your undoing. Logistic Regression suggests...
+
+You can also include a block of R code. Remember this code from last week?
+```
+while(TRUE)
+{
+    Sys.time()
+    Sys.sleep(10)
+}
+```
+Here is an image by Eagle Genomics Ltd, titled "The Periodic Table of Bioinformatics". You can find a static copy that was posted on Flickr by David Hull at [https://farm8.staticflickr.com/7083/6895371690_112fa838aa_k.jpg](https://farm8.staticflickr.com/7083/6895371690_112fa838aa_k.jpg)
+![alt text](https://farm8.staticflickr.com/7083/6895371690_112fa838aa_k.jpg)
+*The Periodic Table of Bioinformatics by Eagle Genomics Ltd.*
