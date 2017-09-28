@@ -14,7 +14,9 @@ names(lst) <- strsplit(tmp, '=', fixed = TRUE) %>%
 if(is.null(lst$out))
   lst$out <- 'out1.pdf'
 
-set.seed(297834) # pick your own seed
+if(!is.null(lst$seed))
+  set.seed(as.numeric(lst$seed))
+
 dat <- data_frame(pred = rnorm(100),
                   resp = pred + rnorm(100))
 
